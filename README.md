@@ -120,8 +120,10 @@ Welcome to my presentation!
 ## Project Structure
 
 ```
-├── mdtopptx.py      # Core conversion logic
-├── webui.py         # Streamlit web interface
+├── MarkdownToPPTX             # Core
+│   └── MarkdownToPPTX.py      # Core conversion logic
+├── webui                      # webui 
+│   └── webui.py     # Streamlit web interface
 ├── input/           # Default input directory
 │   └── sample.md    # Sample markdown file
 ├── output/          # Default output directory
@@ -140,4 +142,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or feedback, please contact:
 - GitHub: [myklabs](https://github.com/myklabs)
+
 - Email: mikkel03@gmail.com
