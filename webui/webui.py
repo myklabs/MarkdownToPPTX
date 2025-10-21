@@ -14,6 +14,10 @@ st.set_page_config(
     layout="wide"
 )
 
+# Set the server to only listen for local loopback addresses 
+# and allow local access only
+st.config.set_option('server.address', '127.0.0.1')
+
 # set page icon and logo
 st.logo(image="./assets/images/mykLabs20.svg", size="large")
 

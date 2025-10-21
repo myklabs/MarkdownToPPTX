@@ -5,14 +5,17 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "MarkdownToPPTX"
 version = "0.1.0"
-description = "A short description of the project"
+description = "Markdown to Powerpoint file Converter"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "mykLabs", email = "mikkel03@gmail.com"},
 ]
-requires-python = ">=3.6"
+requires-python = ">=3.10"
 dependencies = [
     # Add your dependencies here
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[server]
+address = "127.0.0.1"
