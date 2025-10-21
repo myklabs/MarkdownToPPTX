@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "==============================="
-echo "    Streamlit Application Launcher"
+echo "    mykLabs Streamlit Application Launcher"
 echo "==============================="
 
 # Check if virtual environment exists
@@ -35,4 +35,4 @@ echo "Application will open automatically in your browser"
 echo "Press Ctrl+C to stop the service"
 
 # Run the streamlit application
-python -m streamlit run webui/webui.py
+python3 -m streamlit run webui/webui.py

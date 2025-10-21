@@ -1,9 +1,9 @@
 @echo off
 chcp 65001 >nul
-title Streamlit Application Launcher
+title mykLabs Streamlit Application Launcher
 
 echo ===============================
-echo    Streamlit 应用启动器
+echo    mykLabs Streamlit 应用启动器
 echo ===============================
 
 :: 检查虚拟环境是否存在
@@ -47,7 +47,7 @@ echo 应用启动后将在浏览器中自动打开
 echo 按 Ctrl+C 可停止服务
 
 :: streamlit run webui.py 作为包运行
-python -m streamlit run webui/webui.py
+python3 -m streamlit run webui/webui.py
 
 if %errorlevel% neq 0 (
     echo.

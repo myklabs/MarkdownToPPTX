@@ -10,7 +10,7 @@ from MarkdownToPPTX.MarkdownToPPTX import MarkdownToPPTX
 st.set_page_config(
     page_title="mykLabs Markdown to PowerPoint Converter",
     #page_icon="📝",
-    page_icon="./assets/images/mykLabs20.ico",
+    page_icon="./assets/images/k600.ico",
     layout="wide"
 )
 
@@ -19,7 +19,7 @@ st.set_page_config(
 st.config.set_option('server.address', '127.0.0.1')
 
 # set page icon and logo
-st.logo(image="./assets/images/mykLabs20.svg", size="large")
+st.logo(image="./assets/images/k600.svg", size="large")
 
 #st.markdown("---")
 # Page header
